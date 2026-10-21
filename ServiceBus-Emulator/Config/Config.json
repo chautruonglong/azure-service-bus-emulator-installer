@@ -5,7 +5,7 @@
         "Name": "sbemulatorns",
         "Queues": [
           {
-            "Name": "app-sum",
+            "Name": "app-sum-s",
             "Properties": {
               "DeadLetteringOnMessageExpiration": false,
               "DefaultMessageTimeToLive": "PT1H",
@@ -19,7 +19,7 @@
             }
           },
           {
-            "Name": "audit",
+            "Name": "audit-s",
             "Properties": {
               "DeadLetteringOnMessageExpiration": false,
               "DefaultMessageTimeToLive": "PT1H",
@@ -33,7 +33,7 @@
             }
           },
           {
-            "Name": "history",
+            "Name": "history-s",
             "Properties": {
               "DeadLetteringOnMessageExpiration": false,
               "DefaultMessageTimeToLive": "PT1H",
