@@ -401,3 +401,4 @@ FodyWeavers.xsd
 
 # IntelliJ IDEA project files
 .idea/
+.DS_Store
